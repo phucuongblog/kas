@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/carousel/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="view-site">
+		<ul>
+			<li><a href="index.html">Trang chủ</a></li>
+			<li><a href="danhmuc.html">Danh mục</a></li>
+			<li><a href="news-details.html">Chi tiết tin tức</a></li>
+			<li><a href="news.html">Tin tức</a></li>
+			<li><a href="product-details.html">Chi tiết sản phẩm</a></li>
+			<li><a href="contact.html">Liên hệ</a></li>
+		</ul>
+	</div>
+	<!-- .search-popup -->
+	<div class="search-popup">
+		<form class="mobile-search">
+	  		<div class="input-group">
+			  	<input type="text" class="form-control" placeholder="Tìm kiếm..." aria-label="Tìm kiếm..." aria-describedby="button-addon2">
+			</div>
+	  	</form>
+	  	<span class="close-search">&times;</span>
+	</div>
+	<!-- /.search-popup -->
+
+	<!-- #header -->
+	<header id="header">
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-6">
+						<a href="index.html" class="header-logo" title="">
+							<img src="assets/images/logo.png" alt="" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-lg-3 d-none d-lg-block">
+						<div class="header-search">
+							<form>
+								<div class="input-group">
+									<input type="text" name="s" class="form-control" placeholder="Bạn cần tìm gì?">
+									<input type="submit" class="form-control" value="Tìm kiếm">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="menu-block d-inline-block d-lg-none w-100">
+							<nav class="navbar navbar-expand-lg navbar-light">
+							  	<a href="javascript:void(0)" class="mobile-search-btn d-inline-block d-lg-none"><img src="assets/images/main/searching.png"></a>
+								<a href="" class="cart-mobile-btn d-inline-block d-lg-none">
+									<span class="cart-number">0</span>
+									<img src="assets/images/main/shopping.png">
+								</a>
+							  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#primary-menu-wrap" aria-controls="primary-menu-wrap" aria-expanded="false" aria-label="Toggle navigation">
+								    <span class="line"></span>
+								    <span class="line"></span>
+								    <span class="line"></span>
+							 	 </button>
+							  	<div class="collapse navbar-collapse" id="primary-menu-wrap">
+							    	<ul id="primary-menu" class="navbar-nav ml-auto">
+							      		<li class="nav-item dropdown">
+									        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									          	Sản phẩm
+									        </a>
+									        <ul class="dropdown-menu">
+									        	<li class="nav-item">
+									        		<a class="nav-link" href="#">Điện thoại</a>
+									        	</li>
+									        	<li class="nav-item">
+									        		<a class="nav-link" href="#">Máy tính bảng</a>
+									        	</li>
+									        	<li class="nav-item">
+									        		<a class="nav-link" href="#">Phụ kiện</a>
+									        	</li>
+									        	<li class="nav-item">
+									        		<a class="nav-link" href="#">Ép kính</a>
+									        	</li>
+									        	<li class="nav-item">
+									        		<a class="nav-link" href="#">Thay màn hình</a>
+									        	</li>
+									        	<li class="nav-item">
+									        		<a class="nav-link" href="#">Thay pin, thay vỏ</a>
+									        	</li>
+									        	<li class="nav-item">
+									        		<a class="nav-link" href="#">Sửa chữa phần cứng</a>
+									        	</li>
+									        </ul>
+									    </li>
+							      		<li class="nav-item">
+							        		<a class="nav-link" href="#">Giới thiệu</a>
+							      		</li>
+							      		<li class="nav-item">
+							        		<a class="nav-link" href="#">Tin công nghệ</a>
+							      		</li>
+							      		<li class="nav-item">
+							        		<a class="nav-link" href="#">Tin tuyển dụng</a>
+							      		</li>
+							      		<li class="nav-item">
+							        		<a class="nav-link" href="#">Khuyến mãi</a>
+							      		</li>
+							      		<li class="nav-item">
+							        		<a class="nav-link" href="#">Đăng nhập</a>
+							      		</li>
+							    	</ul>
+							  	</div>
+							</nav>
+						</div>
+						<div class="small-menu d-none d-lg-block">
+							<ul>
+								<li><a href="" title="">Trang chủ</a></li>
+								<li><a href="" title="">Giới thiệu</a></li>
+								<li><a href="" title="">Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 d-none d-lg-block">
+						<div class="menu-hotline d-inline-block w-100">
+							<a href="tel:0939967386" title="">
+								<img src="assets/images/main/phone.png" class="float-left d-block">
+								<span>0939 967 386</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-1 d-none d-lg-block">
+						<div class="menu-cart d-inline-block w-100">
+							<a href="" title="">
+								<span class="cart-number">0</span>
+								<span class="float-right d-none">Giỏ hàng</span>
+								<img src="assets/images/main/shopping.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-menu d-none d-lg-block">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+				  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#primary-menu-wrap" aria-controls="primary-menu-wrap" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="line"></span>
+					    <span class="line"></span>
+					    <span class="line"></span>
+				 	 </button>
+				  	<div class="collapse navbar-collapse" id="primary-menu-wrap">
+				    	<ul id="primary-menu" class="navbar-nav">
+				    		<li class="nav-item">
+				        		<a class="nav-link" href="#"><img src="assets/images/iphone.png"></a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="#"><img src="assets/images/samsung.png"></a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="#"><img src="assets/images/oppo.png"></a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="#"><img src="assets/images/nokia.png"></a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="#"><img src="assets/images/huawei.png"></a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="#"><img src="assets/images/xiaomi.png"></a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="#"><img src="assets/images/realme.png"></a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="#">Xem thêm</a>
+				      		</li>
+				    	</ul>
+				  	</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- /#header -->
+
+	<!-- .page-header -->
+	<div class="page-header">
+		<div class="container">
+			<h1 class="d-inline-block">Hãng Samsung</h1>
+			<div class="page-cat d-inline-block">
+				<a href="" title="">Samsung</a>
+			</div>
+			<form>
+				<div class="input-group">
+					<select class="form-control">
+						<option>Model</option>
+						<option>Model 1</option>
+						<option>Model 2</option>
+					</select>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- /.page-header -->
+	
+	<!-- .page-wrapper -->
+	<div class="page-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="products-widget">
+						<div class="row">
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-1.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-2.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-3.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-4.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-1.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-2.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-3.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-4.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-1.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-2.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-3.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 px-lg-0">
+								<div class="item">
+									<a href="" class="thumbnail" title="">
+										<img src="assets/images/phone-4.png" alt="">
+									</a>
+									<h4 class="woocommerce-loop-product__title"><a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a></h4>
+									<span class="price">
+										<ins>
+											<span class="woocommerce-Price-amount amount">
+												1,300,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</ins>
+										<del>
+											<span class="woocommerce-Price-amount amount">
+												1,500,000
+												<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+											</span>
+										</del>
+										<span class="sale-off">-23%</span>
+									</span>
+									<div class="star-rating">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									</div>
+									<div class="shop-action">
+										<a href="" class="booking">
+											<img src="assets/images/main/calendar.png">
+											<span>Đặt lịch</span>
+										</a>
+										<a href="" class="add_to_cart_button">
+											<img src="assets/images/main/shopping-cart.png">
+											<span>Mua hàng</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-center">
+						<a href="" title="" class="more d-inline-block">Xem thêm 130 sản phẩm</a>
+					</div>
+				</div>
+				<div class="col-lg-3 sidebar">
+					<aside>
+						<div class="search-widget">
+							<h4>
+								<img src="assets/images/main/searching.png" class="d-block float-left">
+								<span>Tìm theo</span>
+							</h4>
+							<form>
+								<div class="row">
+									<div class="col-12 mb-2">
+										<div class="input-group">
+											<select class="form-control">
+												<option>Hãng</option>
+												<option>Hãng 1</option>
+												<option>Hãng 2</option>
+												<option>Hãng 3</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12 mb-2">
+										<div class="input-group">
+											<select class="form-control">
+												<option>Model</option>
+												<option>Model 1</option>
+												<option>Model 2</option>
+												<option>Model 3</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12 mb-2">
+										<div class="input-group">
+											<select class="form-control">
+												<option>Tên linh kiện</option>
+												<option>Tên linh kiện 1</option>
+												<option>Tên linh kiện 2</option>
+												<option>Tên linh kiện 3</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="input-group">
+											<input type="submit" value="Tìm" class="form-control">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</aside>
+					<aside>
+						<div class="popular-products">
+							<h3>Sản phẩm bán chạy</h3>
+							<div class="popular-content">
+								<div class="popular-block">
+									<a href="" title="" class="thumbnail"><img src="assets/images/phone-1.png" alt=""></a>
+									<div class="popular-text">
+										<h4 class="woocommerce-loop-product__title">
+											<a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a>
+										</h4>
+										<span class="price">
+											<ins>
+												<span class="woocommerce-Price-amount amount">
+													1,300,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</ins>
+											<del>
+												<span class="woocommerce-Price-amount amount">
+													1,500,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</del>
+										</span>
+										<div class="star-rating">
+											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="popular-block">
+									<a href="" title="" class="thumbnail"><img src="assets/images/phone-1.png" alt=""></a>
+									<div class="popular-text">
+										<h4 class="woocommerce-loop-product__title">
+											<a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a>
+										</h4>
+										<span class="price">
+											<ins>
+												<span class="woocommerce-Price-amount amount">
+													1,300,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</ins>
+											<del>
+												<span class="woocommerce-Price-amount amount">
+													1,500,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</del>
+										</span>
+										<div class="star-rating">
+											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="popular-block">
+									<a href="" title="" class="thumbnail"><img src="assets/images/phone-1.png" alt=""></a>
+									<div class="popular-text">
+										<h4 class="woocommerce-loop-product__title">
+											<a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a>
+										</h4>
+										<span class="price">
+											<ins>
+												<span class="woocommerce-Price-amount amount">
+													1,300,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</ins>
+											<del>
+												<span class="woocommerce-Price-amount amount">
+													1,500,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</del>
+										</span>
+										<div class="star-rating">
+											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="popular-block">
+									<a href="" title="" class="thumbnail"><img src="assets/images/phone-1.png" alt=""></a>
+									<div class="popular-text">
+										<h4 class="woocommerce-loop-product__title">
+											<a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a>
+										</h4>
+										<span class="price">
+											<ins>
+												<span class="woocommerce-Price-amount amount">
+													1,300,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</ins>
+											<del>
+												<span class="woocommerce-Price-amount amount">
+													1,500,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</del>
+										</span>
+										<div class="star-rating">
+											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="popular-block">
+									<a href="" title="" class="thumbnail"><img src="assets/images/phone-1.png" alt=""></a>
+									<div class="popular-text">
+										<h4 class="woocommerce-loop-product__title">
+											<a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a>
+										</h4>
+										<span class="price">
+											<ins>
+												<span class="woocommerce-Price-amount amount">
+													1,300,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</ins>
+											<del>
+												<span class="woocommerce-Price-amount amount">
+													1,500,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</del>
+										</span>
+										<div class="star-rating">
+											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="popular-block">
+									<a href="" title="" class="thumbnail"><img src="assets/images/phone-1.png" alt=""></a>
+									<div class="popular-text">
+										<h4 class="woocommerce-loop-product__title">
+											<a href="" title="">Thay màn hình Oppo F9 chính hãng, uy tín tại Cần Thơ</a>
+										</h4>
+										<span class="price">
+											<ins>
+												<span class="woocommerce-Price-amount amount">
+													1,300,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</ins>
+											<del>
+												<span class="woocommerce-Price-amount amount">
+													1,500,000
+													<span class="woocommerce-Price-currencySymbol">VNĐ</span>
+												</span>
+											</del>
+										</span>
+										<div class="star-rating">
+											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.page-wrapper -->
+
+	<!-- .features-widget -->
+	<div class="features-widget full-width">
+		<div class="container features-wrapper">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6 my-2 my-lg-0">
+					<div class="features-block">
+						<img src="assets/images/main/tools.png" class="float-left d-block">
+						<div class="features-content">
+							<h4>Linh kiện chính hãng</h4>
+							<p>Gọi ngay 0939 967 386</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 my-2 my-lg-0">
+					<div class="features-block">
+						<img src="assets/images/main/settings.png" class="float-left d-block">
+						<div class="features-content">
+							<h4>Sửa chữa lấy ngay</h4>
+							<p>Đội ngũ nhân viên tay nghề cao</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 my-2 my-lg-0">
+					<div class="features-block">
+						<img src="assets/images/main/dollar.png" class="float-left d-block">
+						<div class="features-content">
+							<h4>Sửa chữa tại nhà</h4>
+							<p>Tiết kiệm thời gian, chi phí</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 my-2 my-lg-0">
+					<div class="features-block">
+						<img src="assets/images/main/handshake.png" class="float-left d-block">
+						<div class="features-content">
+							<h4>Giao nhận miễn phí</h4>
+							<p>Gọi ngay 0939 967 386</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.features-widget -->
+	
+	<!-- #footer -->
+	<footer id="footer">
+		<div class="container">
+			<div class="top-footer">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="footer-column">
+							<h2>CH ĐTDĐ Kim Ánh</h2>
+							<ul>
+								<li>GCNĐKKD: 57A8022026</li>
+								<li>Địa chỉ: 306C Nguyễn Văn Linh, P.An Khánh, Q.Ninh Kiều, TP.Cần Thơ</li>
+								<li>Điện thoại: 0939967386</li>
+								<li>Email: phamdilinh@gmail.com</li>
+							</ul>
+						</div>		
+					</div>
+					<div class="col-lg-4">
+						<div class="footer-column">
+							<h3>Thông tin</h3>
+							<ul>
+								<li><a href="" title="">Quy định và hình thức thanh toán</a></li>
+								<li><a href="" title="">Chính sách vận chuyển/ giao nhận</a></li>
+								<li><a href="" title="">Chính sách bảo hành, đổi trả</a></li>
+								<li><a href="" title="">Chính sách bảo mật thông tin</a></li>
+								<li><a href="" title="">Điều khoản sử dụng</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 offset-lg-1">
+						<div class="footer-column">
+							<h3>Kết nối với chúng tôi</h3>
+							<div class="footer-social">
+								<a href="" title=""><i class="fa fa-youtube"></i></a>
+								<a href="" title=""><i class="fa fa-instagram"></i></a>
+								<a href="" title=""><i class="fa fa-facebook"></i></a>
+							</div>
+							<a href="" class="dmca"><img src="assets/images/dmca.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<p>© 2016 Kim Ánh - Chuyên ép kính màn hình, sửa chữa điện thoại iPhone Samsung Oppo Xiaomi</p>
+				<p>Địa chỉ: 306C, Nguyễn Văn Linh, An Khánh, Ninh Kiều, Cần Thơ</p>
+			</div>
+		</div>
+		<div class="backtop">
+		    <a href="javascript:void(0)"><img src="assets/images/main/large-arrow-up.png">
+		    </a>
+		</div>
+	</footer>
+	<!-- /#footer -->
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/popper.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/carousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
